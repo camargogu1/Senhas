@@ -1,0 +1,28 @@
+.senha{
+    width: 100%;
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.form-control{
+    height: 80px !important;
+    
+}
+
+select{
+    margin: 1%;
+}
+
+ @media (max-width: 500px) { 
+
+    .senha{
+        padding: 2%;
+    }
+
+    .form-control{
+        height: 40px !important;
+    }
+    
+} 

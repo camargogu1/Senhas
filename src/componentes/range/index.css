@@ -1,0 +1,46 @@
+.range{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.range2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#range::-webkit-slider-thumb {
+    background-color: yellow !important;
+  }
+  
+.range input{
+    width: 40%;
+}
+
+
+
+.numero{
+    width: 10% !important;
+    margin-right: 2% !important;
+}
+
+
+@media (max-width: 500px){
+
+    .range label{
+        text-align: left;
+    }
+    .deep-range{
+        display: flex;
+    }
+    
+    .range{
+        margin-left: 30%;
+    }
+    .range input{
+        width: 40%;
+    }
+}
