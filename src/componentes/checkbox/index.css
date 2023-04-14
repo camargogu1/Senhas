@@ -8,6 +8,7 @@
 }
 
 .form-check{
+    display: flex !important;
     margin-bottom: 2%
 
 }
