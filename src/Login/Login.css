@@ -39,6 +39,10 @@ a{
     #btnlogin{
         margin-top: 15% !important;
         margin-bottom: 10% !important;
-        width: 60%;
+        width: 100%;
+    }
+
+    .form{
+        margin-top: 50% !important;
     }
 }

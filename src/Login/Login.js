@@ -1,6 +1,6 @@
 import 'react-bootstrap'
 import './Login.css'
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { LoginM } from '../model/login';
 import { LoginDAO } from '../persistencia/loginDAO';
 import { Link, useNavigate } from 'react-router-dom';
@@ -14,6 +14,10 @@ function Login() {
     const [log, SetLog] = useState("")
     const [senha, SetSenha] = useState("")
     let lista = new LoginDAO()
+
+    useEffect(() => {
+        localStorage.setItem("user",null);
+      }, []);
 
     function alteraLogin(evento) {
         SetLog(evento.target.value)
@@ -45,7 +49,7 @@ function Login() {
             history('/app');
         }
         else {
-            alert("não entrou")
+            alert("Usuário ou senha incorretos")
         }
     }
 

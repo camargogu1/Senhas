@@ -44,4 +44,13 @@ a:hover{
         margin-bottom: 15% !important;
         width: 100%
     }
+
+    .form{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        text-align: center;
+        margin-top: 20%;
+        line-height: 200%;
+    }
 }
