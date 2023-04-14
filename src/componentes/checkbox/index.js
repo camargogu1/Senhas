@@ -35,7 +35,7 @@ function Check() {
     }
 
     return (
-        <div className='checks'>
+        <div className='checkss'>
             <div className="form-check form-switch">
                 <input className="form-check-input" checked={maiusculas} onChange={mudarMaiusculas} type="checkbox" id="flexSwitchCheckDefault" />
                 <label className="form-check-label" htmlFor="flexSwitchCheckDefault">Maiúsculas</label>
